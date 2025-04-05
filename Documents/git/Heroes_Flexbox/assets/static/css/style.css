@@ -1,0 +1,193 @@
+
+#header{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /*background-image: url("nubes.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;*/
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.mybadge{
+    background: transparent;
+    border: none;
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content:right;
+    height: 0px;
+    margin-right: 15px;
+}
+
+#bagde{
+    display: flex;
+    flex-direction:column;       /* Para apilar los elementos verticalmente */
+    justify-content:flex-start;   /* Alineación en el eje vertical */
+    position: relative;
+    overflow: hidden;
+}
+    
+.btn:hover {
+    background: transparent;
+    color: darkred;
+}
+
+#section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    align-items: center;
+    background-image: url("fondo_rojo.jpg");
+    background-size:cover;
+    background-repeat:repeat;
+    background-size: 100% 100%;
+    margin: 0%;
+    padding: 4%;
+}
+#card{
+    display: flex;
+    flex-direction:row;       /* Para apilar los elementos verticalmente */
+    justify-content:flex-start;   /* Alineación en el eje vertical */
+    margin-left: 50px;
+}
+#profilelego{
+
+    width: 100px;         /* Ajusta el tamaño deseado */
+    height: 100px;        /* Asegúrate de que la altura sea igual que el ancho */
+    border-radius: 50%;   /* Hace que la imagen sea circular */
+    object-fit:cover;    /* Mantiene la imagen dentro del área sin distorsionarla */
+    display: flex;
+    flex-direction:row;       /* Para apilar los elementos verticalmente */
+    justify-content: center;   /* Alineación en el eje vertical */
+    align-items: right;
+    padding-left: -20px;            /* Espacio arriba para la imagen */
+    position: absolute;
+    margin: 90px;
+    top: 8%;
+    overflow: hidden;
+
+}
+#card-body{
+    margin-top: 20px;
+}
+
+@font-face {
+    font-family: "tituloheroes";
+    src: url("../public/fonts/heroesassemble2.ttf");
+}
+@font-face {
+    font-family: "heroes";
+    src: url("../public/fonts/HEROES_Font.ttf");
+}
+
+@font-face {
+    font-family: "titlesingle";
+    src: url("../public/fonts/KOMIKAX_.ttf");
+}
+.Title1{
+    font-family: 'tituloheroes', Helvetica, sans-serif;
+    /* bold; lighter; */
+    font-weight: normal;
+    /* italic; oblique; */
+    font-style: normal;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 0px black;
+    /* capitalize; uppercase; lowercase; */
+    text-transform: normal;
+    /* small-caps slashed-zero; no-common-ligatures proportional-nums; common-ligatures tabular-nums; */
+    font-variant: normal;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card-title{
+    font-family: 'heroes', Helvetica, sans-serif;
+    /* bold; lighter; */
+    font-weight: normal;
+    /* italic; oblique; */
+    font-style: normal;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    font-size: 18px;
+    color: black;
+    text-shadow: 0px 0px 0px black;
+    /* capitalize; uppercase; lowercase; */
+    text-transform: normal;
+    /* small-caps slashed-zero; no-common-ligatures proportional-nums; common-ligatures tabular-nums; */
+    font-variant: normal;
+}
+
+#section{
+
+    
+}
+
+#footer{
+    display: flex;
+    flex-flow:row;
+    background-color:black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.textfooter{
+    text-align: center;
+    margin-left: 40%;
+    color: blanchedalmond;
+}
+.menuredes{
+    list-style: none;
+    display: inline-flex;
+    justify-content: flex-end;
+    position: absolute;
+    flex-direction: row;
+    font-size: 25px;
+    right: 20px;
+    gap: 15px;
+}
+
+.menuredes a{
+    text-decoration: none;
+    color: blanchedalmond;
+    top: 0px;
+}
+
+.titlesingleheroe{
+        font-family: 'titlesingle', Helvetica, sans-serif;
+        /* bold; lighter; */
+        font-weight: normal;
+        /* italic; oblique; */
+        font-style: normal;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+        font-size: 60px;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 0px 0px black;
+        /* capitalize; uppercase; lowercase; */
+        text-transform: normal;
+        /* small-caps slashed-zero; no-common-ligatures proportional-nums; common-ligatures tabular-nums; */
+        font-variant: normal;
+        text-align: center;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#heropic{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#parrafotext{
+    text-align:justify;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
